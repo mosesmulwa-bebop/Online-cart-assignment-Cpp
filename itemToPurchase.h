@@ -1,4 +1,5 @@
 
+
 #include<iostream>
 using namespace std;
 
@@ -11,26 +12,13 @@ private:
     int itemQuantity;
    //public member functions
 public:
-   string GetName(){
-     return itemName;
-   };
-   int GetPrice(){
-      return itemPrice;
-   };
-   int GetQuantity(){
-       return itemQuantity;
-   };
+   string GetName();
+   int GetPrice();
+   int GetQuantity();
 
-   void SetName(string name){
-       itemName = name;
-   };
-
-   void SetPrice(int price){
-       itemPrice = price;
-   };
-   void SetQuantity(int quantity){
-       itemQuantity = quantity;
-   };
+   void SetName(string name);
+   void SetPrice(int price);
+   void SetQuantity(int quantity);
 
    //Default Constructor
    item()

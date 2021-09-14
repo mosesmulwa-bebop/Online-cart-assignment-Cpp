@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1631651653 source:c:\users\user\desktop\cpp\online cart legit\main.cpp
-	<iostream>
-	"itemToPurchase.h"
-
-1631649886 c:\users\user\desktop\cpp\online cart legit\itemtopurchase.h
-	<iostream>
-
